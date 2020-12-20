@@ -1,0 +1,42 @@
+.roditelj div{
+    background-color: gray;
+    color: wheat;
+    margin: 5px;
+    width: 30%;
+}
+
+.roditelj{
+    height:5vh; /*(procenat velicine prozora)*/
+    display: flex;
+    flex-direction: row; /* moze i row*/
+     
+    /*ako je unet display flex, 
+    onda u roditelju treba da se unese
+    flex wrap kojii ubacuje u novi red i omogucava
+    30 posto OBEZBEDJUJE RESP*/
+    /* flex-wrap: wrap;
+    justify-content: center; */
+    /* justify-content: flex-start; /*flex-end 
+    center space-between, space-around
+    space-evenly */
+    /*align-items: flex-start;*/
+    
+    
+}
+
+#div1{
+    flex: 1; /*koliki procenat ekrana zauzima*/
+}
+
+#div2{
+    flex: 1;
+}
+#div3{
+    flex: 1;
+}
+#div4{
+    flex: 1;
+}
+#div5{
+    flex: 1;
+}
